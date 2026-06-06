@@ -19,3 +19,17 @@ Python | Pandas | Scikit-learn | Docker | GitHub Actions
 ## Results
 RankForge correctly identifies best candidates from Tier 2 & 3 cities
 purely based on skill match — not keywords or location bias.
+
+## Version History
+- v1 → Basic ranking engine
+- v2 → Multi-candidate + CSV output
+- v3 → Skill gap analysis + Experience boost + Explainable AI
+
+## Sample Output
+🥇 Rank 1: Arjun (Warangal) → Score: 0.435
+✅ Matched: python, docker, ci/cd, devops
+❌ Missing: machine learning
+
+## How to Run
+pip install pandas scikit-learn numpy
+python rankforge_v3.py
